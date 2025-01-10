@@ -1,2 +1,10 @@
 **Tension between particles computed with this formula:**
-```TENSION = (INITIAL LENGTH - CURRENT LENGTH) / CURRENT LENGTH```
+```math
+\text{TENSION} = \frac{\text{INITIAL LENGTH} - \text{CURRENT LENGTH}}{\text{CURRENT LENGTH}}
+```
+**OR:**
+```math
+\text{TENSION} = \frac{\text{INITIAL LENGTH} - \text{NEW LENGTH}}{\text{NEW LENGTH}}
+```
+
+  
