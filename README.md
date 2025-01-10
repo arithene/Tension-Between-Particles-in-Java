@@ -6,8 +6,8 @@
 ```math
 \text{TENSION} = \frac{\text{INITIAL LENGTH} - \text{NEW LENGTH}}{\text{NEW LENGTH}}
 ```
-# CODE
-- Tt's formula based method inside Tension.java file:
+
+### It's formula based method inside Tension.java file:
 ```java
 public double tension() {
   double currentLength = length();
@@ -15,6 +15,9 @@ public double tension() {
   return difference / currentLength;
 }
 ```
+
+# CODE
+### Physics class
 - Tension.java file:
 ```java
 package tutorial0_tensionofparticles;
@@ -60,6 +63,7 @@ public class Tension {
 
 }
 ```
+### Appearance class
 - ColorUtils.java file:
 ```java
 package tutorial0_tensionofparticles;
@@ -139,6 +143,7 @@ public class ColorUtils {
 
 }
 ```
+### Particle class
 - Particle.java file:
 ```java
 package tutorial0_tensionofparticles;
@@ -183,7 +188,7 @@ public class Particle {
 
 }
 ```
-### Main class:
+### Main GUI class:
 - TensionOfParticles.java file:
 ```java
 package tutorial0_tensionofparticles;
